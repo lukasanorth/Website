@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lukas North — Portfolio</title>
+  <meta name="description" content="Lukas North Portfolio — Program Manager." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ─── NAV ─── -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#hero" class="nav__logo">LN</a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav__burger" id="burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero" id="hero">
+    <div class="container hero__inner">
+      <p class="hero__greeting reveal">Hi, I'm</p>
+      <h1 class="hero__name reveal">Lukas.</h1>
+      <p class="hero__title reveal">Program Manager, Interior Designer &amp; Builder</p>
+      <p class="hero__bio reveal">
+        Multidisciplinary leader with 10+ years driving enterprise-scale programs at the intersection of data, operations, and technology. Proven
+        record of delivering cross-functional initiatives with governance rigor, risk management, and Agile/SAFe execution. Recognized for aligning
+        programs with enterprise OKRs, consolidating stakeholder reporting, and ensuring audit-ready compliance. Experienced in leveraging AI and
+        Machine Learning to optimize decision-making, analyze customer behavior, and design data-driven marketing strategies that accelerate
+        growth and enhance customer engagement. Based in <strong>New York</strong>.
+      </p>
+      <div class="hero__cta reveal">
+        <a href="#projects" class="btn btn--primary">View Projects</a>
+        <a href="assets/resume.pdf" class="btn btn--outline" target="_blank">Download Résumé</a>
+      </div>
+      <div class="hero__social reveal">
+        <a href="https://github.com/lukasanorth" target="_blank" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/lukasnorth" target="_blank" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:lukas@lukasnorth.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__label reveal">About</div>
+      <div class="about__grid">
+        <div class="about__text reveal">
+          <h2>A bit about me</h2>
+          <p>
+            I am a program manager with a focus on how things work and how best to improve systems. 
+            I enjoy systems architecture, data analytics, and developing programs that improve the quality of life of things.
+            I'm an interior designer with a passion for designing and building building products that
+            make people's lives easier. I've worked across the full stack —
+            from designing pixel-perfect UIs to architecting distributed systems.
+          </p>
+          <p>
+            In my off time you can find me flying helicopters, racing motorcycles, or exploring a new fascinating tool.
+          </p>
+          <p>
+            I'm currently <strong>open to new opportunities</strong> — feel
+            free to reach out.
+          </p>
+        </div>
+        <div class="about__facts reveal">
+          <div class="fact">
+            <span class="fact__number">10+</span>
+            <span class="fact__label">Years of experience</span>
+          </div>
+          <div class="fact">
+            <span class="fact__number">20+</span>
+            <span class="fact__label">Projects shipped</span>
+          </div>
+          <div class="fact">
+            <span class="fact__number">10+</span>
+            <span class="fact__label">Happy clients</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ─── -->
+  <section class="section section--alt" id="projects">
+    <div class="container">
+      <div class="section__label reveal">Projects</div>
+      <h2 class="section__title reveal">Selected work</h2>
+      <div class="projects__grid">
+
+        <!-- Skunkworks Flywheel -->
+        <article class="project-card reveal">
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 12a9 9 0 11-6.219-8.56"/><path d="M21 3v6h-6"/></svg>
+            </div>
+          </div>
+          <h3 class="project-card__title">Project Skunkworks: Flywheel Adoption Accelerator</h3>
+          <p class="project-card__desc">
+            A behavioral change management program for American Express that recruits
+            change-resistant senior marketers as pilot leaders — converting institutional
+            skeptics into internal champions through a seven-phase experimentation cycle.
+          </p>
+          <div class="project-card__tags">
+            <span class="tag">Change Management</span>
+            <span class="tag">Enterprise Adoption</span>
+            <span class="tag">Org Behavior</span>
+          </div>
+          <a href="case-studies/skunkworks-flywheel.html" class="project-card__cta">Read case study <span aria-hidden="true">→</span></a>
+        </article>
+
+        <!-- JDMS -->
+        <article class="project-card reveal">
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg>
+            </div>
+          </div>
+          <h3 class="project-card__title">JDMS: From Survey Vendor to National Data Platform</h3>
+          <p class="project-card__desc">
+            Product strategy for a drone-mapping startup in Jamaica — choosing a
+            disaster-planning wedge, building a proprietary geospatial dataset as the moat,
+            and sequencing the transition from services to recurring platform revenue.
+          </p>
+          <div class="project-card__tags">
+            <span class="tag">Product Strategy</span>
+            <span class="tag">Geospatial Data</span>
+            <span class="tag">Roadmapping</span>
+          </div>
+          <a href="case-studies/jdms.html" class="project-card__cta">Read case study <span aria-hidden="true">→</span></a>
+        </article>
+
+        <!-- JamaicanFood -->
+        <article class="project-card reveal">
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+            </div>
+          </div>
+          <h3 class="project-card__title">JamaicanFood: Recipe Box Builder</h3>
+          <p class="project-card__desc">
+            A zero-to-one iOS app bringing authentic Jamaican ingredients to the diaspora.
+            Eleven wireframed screens spanning a dual-mode box builder, multi-currency
+            checkout with Apple Pay, and cultural context as a first-class feature.
+          </p>
+          <div class="project-card__tags">
+            <span class="tag">Product Design</span>
+            <span class="tag">iOS / Mobile</span>
+            <span class="tag">E-commerce</span>
+          </div>
+          <a href="case-studies/jamaicanfood.html" class="project-card__cta">Read case study <span aria-hidden="true">→</span></a>
+        </article>
+
+        <!-- VICTA -->
+        <article class="project-card reveal">
+          <div class="project-card__header">
+            <div class="project-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9.5L12 3l9 6.5"/><path d="M5 10v10h14V10"/><path d="M9 20v-6h6v6"/></svg>
+            </div>
+          </div>
+          <h3 class="project-card__title">VICTA: Veteran Reintegration Program</h3>
+          <p class="project-card__desc">
+            A concept proposal for homeless veteran reintegration adapting the Army's OSUT
+            training model — unifying transitional housing, vocational training, and job
+            placement in a 200+ bed community built from repurposed shipping containers.
+          </p>
+          <div class="project-card__tags">
+            <span class="tag">Program Design</span>
+            <span class="tag">Social Impact</span>
+            <span class="tag">Systems Thinking</span>
+          </div>
+          <a href="case-studies/victa.html" class="project-card__cta">Read case study <span aria-hidden="true">→</span></a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── EXPERIENCE ─── -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section__label reveal">Experience</div>
+      <h2 class="section__title reveal">Where I've worked</h2>
+      <div class="timeline">
+
+        <div class="timeline__item reveal">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <div class="timeline__meta">
+              <span class="timeline__date">2023 — Present</span>
+              <span class="timeline__type">Full-time</span>
+            </div>
+            <h3 class="timeline__role">Senior Software Engineer</h3>
+            <p class="timeline__company">Acme Corp · Remote</p>
+            <p class="timeline__desc">
+              Led development of the core product API, reducing response time by 40%.
+              Mentored junior engineers and drove adoption of TypeScript across the team.
+            </p>
+            <div class="timeline__tags">
+              <span class="tag">TypeScript</span>
+              <span class="tag">AWS</span>
+              <span class="tag">GraphQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <div class="timeline__meta">
+              <span class="timeline__date">2021 — 2023</span>
+              <span class="timeline__type">Full-time</span>
+            </div>
+            <h3 class="timeline__role">Software Engineer</h3>
+            <p class="timeline__company">Beta Startup · San Francisco, CA</p>
+            <p class="timeline__desc">
+              Built and shipped three major product features from 0 to 1.
+              Owned the data pipeline that processed 1M+ events/day.
+            </p>
+            <div class="timeline__tags">
+              <span class="tag">Python</span>
+              <span class="tag">Kafka</span>
+              <span class="tag">React</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <div class="timeline__meta">
+              <span class="timeline__date">2019 — 2021</span>
+              <span class="timeline__type">Full-time</span>
+            </div>
+            <h3 class="timeline__role">Junior Developer</h3>
+            <p class="timeline__company">Agency Name · New York, NY</p>
+            <p class="timeline__desc">
+              Developed client-facing web applications for a range of industries.
+              Collaborated closely with designers to translate Figma specs into
+              pixel-perfect interfaces.
+            </p>
+            <div class="timeline__tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">Vue.js</span>
+              <span class="tag">SCSS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="timeline__divider reveal">Education</div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__marker timeline__marker--edu"></div>
+          <div class="timeline__content">
+            <div class="timeline__meta">
+              <span class="timeline__date">2015 — 2019</span>
+              <span class="timeline__type">Degree</span>
+            </div>
+            <h3 class="timeline__role">B.S. Computer Science</h3>
+            <p class="timeline__company">University Name · City, State</p>
+            <p class="timeline__desc">
+              Graduated with honors. Focus areas: algorithms, distributed systems,
+              and human-computer interaction.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ─── -->
+  <section class="section section--alt" id="skills">
+    <div class="container">
+      <div class="section__label reveal">Skills</div>
+      <h2 class="section__title reveal">Tools &amp; technologies</h2>
+      <div class="skills__grid">
+        <div class="skill-group reveal">
+          <h4 class="skill-group__title">Languages</h4>
+          <div class="skill-group__tags">
+            <span class="tag tag--lg">MySQL</span>
+            <span class="tag tag--lg">TypeScript</span>
+            <span class="tag tag--lg">Python</span>
+            <span class="tag tag--lg">SQL</span>
+            <span class="tag tag--lg">Bash</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4 class="skill-group__title">Frameworks</h4>
+          <div class="skill-group__tags">
+            <span class="tag tag--lg">React</span>
+            <span class="tag tag--lg">Next.js</span>
+            <span class="tag tag--lg">Node.js</span>
+            <span class="tag tag--lg">FastAPI</span>
+            <span class="tag tag--lg">GraphQL</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4 class="skill-group__title">Infrastructure</h4>
+          <div class="skill-group__tags">
+            <span class="tag tag--lg">AWS</span>
+            <span class="tag tag--lg">Docker</span>
+            <span class="tag tag--lg">Kubernetes</span>
+            <span class="tag tag--lg">Terraform</span>
+            <span class="tag tag--lg">GitHub Actions</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4 class="skill-group__title">Databases</h4>
+          <div class="skill-group__tags">
+            <span class="tag tag--lg">PostgreSQL</span>
+            <span class="tag tag--lg">Redis</span>
+            <span class="tag tag--lg">MongoDB</span>
+            <span class="tag tag--lg">Elasticsearch</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section class="section" id="contact">
+    <div class="container contact__inner">
+      <div class="section__label reveal">Contact</div>
+      <h2 class="section__title reveal">Let's work together</h2>
+      <p class="contact__desc reveal">
+        I'm currently open to new roles and interesting collaborations.
+        Whether you have a project in mind or just want to say hello —
+        my inbox is always open.
+      </p>
+      <a href="mailto:lukas@lukasnorth.com" class="btn btn--primary btn--lg reveal">
+        Say hello →
+      </a>
+      <div class="contact__links reveal">
+        <a href="https://github.com/lukasanorth" target="_blank">GitHub</a>
+        <span class="dot">·</span>
+        <a href="https://linkedin.com/in/lukasnorth" target="_blank">LinkedIn</a>
+        <span class="dot">·</span>
+        <!-- <a href="https://twitter.com/yourusername" target="_blank">Twitter</a> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© 2026 Lukas North. All rights reserved.</span>
+      <span>Designed &amp; built by helpinghands.</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
