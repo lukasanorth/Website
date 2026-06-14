@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lukas North — Portfolio</title>
+  <title>Lukas North - Portfolio</title>
   <meta name="description" content="Lukas North Portfolio — Program Manager." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -214,9 +214,16 @@
             <h3 class="timeline__role">Creative Director</h3>
             <p class="timeline__company">Triumph Motorcycles · Brooklyn, NY</p>
             <p class="timeline__desc">
-              Led development of the core product API, reducing response time by 40%.
-              Mentored junior engineers and drove adoption of TypeScript across the team.
+              • Directed go-to-market execution for digital, retail, and event-based campaigns, increasing dealership traffic by 20% and digital engagement by 23%.
+              <br>• Launched flagship initiatives such as the Triumph Passport Program (loyalty engagement + partner activations) 
+              and Community: IN FOCUS editorial series, increasing newsletter subscriptions by 38%.
+              <br>• Developed co-marketing activations with regional partners, aligning with Triumph’s global brand strategy while tailoring to local market.
+              <br>• Managed a cross-functional team of staff, partners, and vendors, providing coaching and performance feedback to ensure campaign quality and consistent brand messaging.
+              <br>• Managed partnership budgets, optimizing resource allocations and achieving an 18% ROI improvement using predictive analytics.
+              <br>• Created governance-ready processes and documentation, including a centralized knowledge base of 200+ assets and workflows, enabling scalable campaign replication and
+              vendor alignment.
             </p>
+            
             <div class="timeline__tags">
               <span class="tag">SQL</span>
               <span class="tag">InDesign</span>
@@ -235,10 +242,13 @@
             <h3 class="timeline__role">Program Manager</h3>
             <p class="timeline__company">Microsoft · New York, NY</p>
             <p class="timeline__desc">
-              Led a five-month product discovery sprint under a Principal Financial PM, 
-              testing the hypothesis that news and social-media sentiment could serve 
-              as a leading indicator for Microsoft (MSFT) price movement, 
-              and whether the signal warranted downstream tooling investment.
+              • Led a five-month product discovery sprint under a Principal Financial PM, testing the hypothesis that news and social-media sentiment could serve as a leading indicator for Microsoft (MSFT) price movement, and whether the signal warranted downstream tooling investment.
+              <br>• Defined the outcome bar upfront, meaning the threshold at which a positive answer would commit downstream tooling resources. Authored the PRD and impact-analysis prioritization document used as the operating spine. Ran self-managed sprints with periodic checkpoints across a cross-functional review panel of four senior leaders: Principal PM, Principal Financial PM, Senior SWE, and Azure Core Security SWE.
+              <br>• Scanned the competitive landscape of sentiment-analysis approaches and made a feasibility-vs-value trade-off on the modeling stack. Selected TextBlob plus VADER over a fine-tuned transformer for scope and timeline fit. Locked the dependency stack (pandas, NumPy, scikit-learn, Alpha Vantage SDK, NLTK, Claude API) with documented rationale and defended trade-offs in code review with two Microsoft SWEs.
+              <br>• Designed and built an end-to-end ETL pipeline pairing NLP-derived sentiment metrics with technical indicators: MACD, SMA, EMA, returns, and volatility. Engineered Alpha Vantage API rate-limit handling and data-integrity validation at every stage to enable head-to-head comparison of sentiment-only vs. sentiment-plus-technical model inputs.
+              <br>• Trained and evaluated six regression models: Linear, Ridge, Lasso, SVR, Random Forest, and Gradient Boosting. Ran cross-correlation and Granger causality testing to probe lead and lag dynamics, surfacing reverse-causality evidence (price leading sentiment, minimum p = 0.0847 at lag 7).
+              <br>• Delivered a product strategy recommendation, supported by qualitative and quantitative data, that reshaped the team's working direction: sentiment as a supplementary input rather than primary trading signal, news volume as a stronger correlate than polarity, and the product question re-framed toward what Microsoft does rather than sentiment.
+              <br>• Defined a four-workstream forward roadmap covering: deployment (real-time monitoring, automated collection, signal-based notifications), model enhancement LSTM and transformer exploration, ensemble methods, validation (back-testing, simulation, OOS testing), and expansion (additional tickers, macroeconomic indicators). Formally handed off pipeline, dashboards, and documentation.
             </p>
             <div class="timeline__tags">
               <span class="tag">Python</span>
