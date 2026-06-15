@@ -404,13 +404,13 @@ img, svg { display: block; }
 /* ─── Timeline ─── */
 .timeline {
   position: relative;
-  padding-left: 28px;
+  padding-left: 33px;
 }
 .timeline::before {
   content: '';
   position: absolute;
   left: 5px; top: 8px; bottom: 0;
-  width: 1px;
+  width:1px;
   background: var(--border);
 }
 .timeline__item {
@@ -468,13 +468,19 @@ img, svg { display: block; }
   margin-bottom: 12px;
 }
 .timeline__tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.timeline__divider::before {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
 .timeline__divider {
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--text-3);
-  margin: 48px 0 32px -28px;
+  margin: 48px 0 32px max(-28px, -4vw);
   display: flex;
   align-items: center;
   gap: 12px;
@@ -795,6 +801,9 @@ img, svg { display: block; }
   align-items: center;
   gap: 6px;
   transition: gap var(--transition);
+}
+.project-card__cta:visited {
+  color: var(--text-3);
 }
 .project-card:hover .project-card__cta { gap: 10px; }
 
