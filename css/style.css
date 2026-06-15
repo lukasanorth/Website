@@ -249,6 +249,63 @@ img, svg { display: block; }
   margin-bottom: 48px;
 }
 
+/* ─── Career Overview ─── */
+.overview__callouts {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-bottom: 48px;
+}
+.overview__item {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--border);
+}
+.overview__item:first-child { border-top: 1px solid var(--border); }
+.overview__role {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+  min-width: 200px;
+}
+.overview__divider {
+  color: var(--text-3);
+  flex-shrink: 0;
+}
+.overview__achievement {
+  font-size: 0.9rem;
+  color: var(--text-2);
+  line-height: 1.65;
+}
+.overview__cta {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  margin-top: 12px;
+}
+
+.overview__company {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--text-2);
+}
+
+@media (max-width: 640px) {
+  .overview__item {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .overview__role { min-width: unset; }
+  .overview__divider { display: none; }
+}
+
 /* ─── About ─── */
 .about__grid {
   display: grid;
