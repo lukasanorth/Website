@@ -10,246 +10,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../css/style.css" />
-  <style id="jf-mockup-styles">
-.jf-mockup{--green:#2a473c;
-    --green-mid:#3d6757;
-    --gold:#c59e4b;
-    --gold-light:#d1b372;
-    --gold-deep:#a78336;
-    --ink:#172721;
-
-    
-    --cream:#f6f1e7;
-    --surface:#fffdf7;
-    --surface-2:#f1ead9;
-    --ink-soft:#3d6757;
-    --ink-mute:rgba(23,39,33,.52);
-    --line:rgba(42,71,60,.12);
-    --line-strong:rgba(42,71,60,.20);
-    --shadow:0 1px 2px rgba(23,39,33,.05),0 8px 24px rgba(23,39,33,.07);
-    --shadow-lift:0 2px 6px rgba(23,39,33,.08),0 24px 60px rgba(23,39,33,.14);
-
-    --r-lg:22px; --r-md:16px; --r-sm:11px;}
-.jf-mockup, .jf-mockup *{box-sizing:border-box;margin:0;padding:0}
-.jf-mockup{-webkit-text-size-adjust:100%}
-.jf-mockup{font-family:'Inter',system-ui,sans-serif;
-    background:
-      radial-gradient(900px 500px at 12% -5%, rgba(61,103,87,.10), transparent 60%),
-      radial-gradient(900px 500px at 95% 0%, rgba(197,158,75,.10), transparent 55%),
-      #ece4d3;
-    color:var(--ink);
-    -webkit-font-smoothing:antialiased;
-    line-height:1.45;
-    padding:0 0 90px;}
-.jf-mockup .wrap{max-width:1320px;margin:0 auto;padding:0 28px}
-.jf-mockup .board-head{padding:64px 0 40px;border-bottom:1px solid var(--line)}
-.jf-mockup .board-head .kick{font-size:12px;letter-spacing:.18em;text-transform:uppercase;
-    color:var(--gold-deep);font-weight:600;}
-.jf-mockup .board-head h1{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(34px,5vw,52px);
-    line-height:1.04;letter-spacing:-.01em;color:var(--green);margin:10px 0 14px;}
-.jf-mockup .board-head p{max-width:60ch;color:var(--ink-soft);font-size:16px}
-.jf-mockup .meta-row{display:flex;flex-wrap:wrap;gap:30px;margin-top:26px}
-.jf-mockup .meta-row .m{display:flex;flex-direction:column;gap:3px}
-.jf-mockup .meta-row .m dt{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-mute)}
-.jf-mockup .meta-row .m dd{font-size:15px;font-weight:600;color:var(--green)}
-.jf-mockup .swatches{display:flex;gap:8px;margin-top:28px;flex-wrap:wrap}
-.jf-mockup .sw{display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);
-      border-radius:999px;padding:6px 12px 6px 6px;font-size:12px;font-weight:600;color:var(--ink-soft)}
-.jf-mockup .sw i{width:18px;height:18px;border-radius:50%;display:block;box-shadow:inset 0 0 0 1px rgba(0,0,0,.06)}
-.jf-mockup .stage{padding:54px 0 8px}
-.jf-mockup .stage-head{display:flex;align-items:baseline;gap:16px;margin-bottom:30px;flex-wrap:wrap}
-.jf-mockup .stage-num{font-family:'Fraunces',serif;font-weight:600;font-size:15px;color:#fff;
-    background:var(--st);width:38px;height:38px;border-radius:50%;display:grid;place-items:center;flex:none;
-    align-self:center;box-shadow:0 4px 12px color-mix(in srgb,var(--st) 40%,transparent)}
-.jf-mockup .stage-head h2{font-family:'Fraunces',serif;font-weight:600;font-size:26px;color:var(--green);letter-spacing:-.01em}
-.jf-mockup .stage-head .desc{color:var(--ink-mute);font-size:14px;max-width:46ch}
-.jf-mockup .stage-head .bar{flex:1;min-width:40px;height:2px;background:linear-gradient(90deg,var(--st),transparent);
-    border-radius:2px;align-self:center;opacity:.5}
-.jf-mockup .phones{display:flex;flex-wrap:wrap;gap:34px}
-.jf-mockup figure.pc{margin:0;width:301px}
-.jf-mockup .phone{width:301px;height:620px;border-radius:42px;background:#0f1814;
-    padding:9px;box-shadow:var(--shadow-lift);position:relative;
-    transition:transform .5s cubic-bezier(.16,1,.3,1),box-shadow .5s cubic-bezier(.16,1,.3,1);}
-.jf-mockup figure.pc:hover .phone{transform:translateY(-8px);box-shadow:0 4px 10px rgba(23,39,33,.10),0 40px 80px rgba(23,39,33,.20)}
-.jf-mockup .screen{width:100%;height:100%;border-radius:34px;overflow:hidden;background:var(--cream);
-    position:relative;display:flex;flex-direction:column;}
-.jf-mockup .notch{position:absolute;top:0;left:50%;transform:translateX(-50%);width:104px;height:21px;
-    background:#0f1814;border-radius:0 0 16px 16px;z-index:40}
-.jf-mockup figcaption{margin-top:16px}
-.jf-mockup figcaption .cn{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;color:var(--green)}
-.jf-mockup figcaption .cn b{color:var(--st);font-family:'Fraunces',serif;font-size:13px}
-.jf-mockup figcaption .note{font-size:12.5px;color:var(--ink-mute);margin-top:4px;line-height:1.5;max-width:34ch}
-.jf-mockup .statusbar{height:34px;display:flex;align-items:flex-end;justify-content:space-between;
-    padding:0 22px 5px;font-size:12.5px;font-weight:600;flex:none;position:relative;z-index:30}
-.jf-mockup .statusbar .ico{display:flex;align-items:center;gap:5px}
-.jf-mockup .statusbar svg{display:block}
-.jf-mockup .scr-body{flex:1;overflow:hidden;position:relative;display:flex;flex-direction:column}
-.jf-mockup .scroll{flex:1;overflow:hidden;padding:4px 16px 14px}
-.jf-mockup .appbar{display:flex;align-items:center;justify-content:space-between;padding:6px 16px 12px;flex:none}
-.jf-mockup .appbar .title{font-family:'Fraunces',serif;font-weight:600;font-size:21px;color:var(--green);letter-spacing:-.01em}
-.jf-mockup .appbar .sub{font-size:11.5px;color:var(--ink-mute);margin-top:1px}
-.jf-mockup .circbtn{width:34px;height:34px;border-radius:50%;background:var(--surface);border:1px solid var(--line);
-    display:grid;place-items:center;color:var(--green)}
-.jf-mockup .backbtn{display:flex;align-items:center;gap:5px;font-weight:600;font-size:13.5px;color:var(--green)}
-.jf-mockup .tabbar{flex:none;height:62px;display:flex;background:var(--surface);border-top:1px solid var(--line);
-    padding:8px 6px 0}
-.jf-mockup .tab{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;color:var(--ink-mute);font-size:9.5px;font-weight:600}
-.jf-mockup .tab.on{color:var(--green)}
-.jf-mockup .tab svg{width:21px;height:21px}
-.jf-mockup .search{display:flex;align-items:center;gap:9px;background:var(--surface);border:1px solid var(--line);
-    border-radius:13px;padding:11px 13px;color:var(--ink-mute);font-size:13.5px;margin-bottom:14px}
-.jf-mockup .chips{display:flex;gap:8px;overflow:hidden;margin-bottom:16px}
-.jf-mockup .chip{font-size:12px;font-weight:600;padding:7px 13px;border-radius:999px;white-space:nowrap;
-    background:var(--surface);border:1px solid var(--line);color:var(--ink-soft)}
-.jf-mockup .chip.on{background:var(--green);color:#fff;border-color:var(--green)}
-.jf-mockup .btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;border:none;
-    border-radius:14px;padding:14px;font-family:inherit;font-weight:700;font-size:14.5px;cursor:default}
-.jf-mockup .btn-gold{background:var(--gold);color:var(--ink)}
-.jf-mockup .btn-green{background:var(--green);color:#fff}
-.jf-mockup .btn-ghost{background:var(--surface);border:1px solid var(--line-strong);color:var(--green)}
-.jf-mockup .btn-apple{background:var(--ink);color:#fff}
-.jf-mockup .btn-sm{padding:11px;font-size:13px;border-radius:12px}
-.jf-mockup .tag{display:inline-flex;align-items:center;gap:4px;font-size:10px;font-weight:700;letter-spacing:.03em;
-    text-transform:uppercase;padding:4px 8px;border-radius:7px}
-.jf-mockup .tag-gold{background:rgba(197,158,75,.18);color:var(--gold-deep)}
-.jf-mockup .tag-green{background:rgba(61,103,87,.15);color:var(--green)}
-.jf-mockup .tile{position:relative;border-radius:12px;overflow:hidden;background:
-      linear-gradient(135deg,var(--green) 0%,var(--green-mid) 55%,var(--gold-deep) 130%)}
-.jf-mockup .tile.gold{background:linear-gradient(135deg,var(--gold) 0%,var(--gold-deep) 70%,var(--green-mid) 140%)}
-.jf-mockup .tile.warm{background:linear-gradient(140deg,var(--green-mid),var(--gold))}
-.jf-mockup .tile::after{content:"";position:absolute;inset:0;
-    background:radial-gradient(120px 80px at 75% 18%,rgba(255,255,255,.22),transparent 70%)}
-.jf-mockup .tile .leaf{position:absolute;right:8px;bottom:7px;opacity:.5;z-index:1}
-.jf-mockup .tile .lbl{position:absolute;left:10px;bottom:9px;right:10px;z-index:2;color:#fff;
-    font-family:'Fraunces',serif;font-weight:600;font-size:13px;line-height:1.15;
-    text-shadow:0 1px 6px rgba(0,0,0,.35)}
-.jf-mockup .h-row{display:flex;align-items:baseline;justify-content:space-between;margin:6px 0 11px}
-.jf-mockup .h-row h3{font-family:'Fraunces',serif;font-weight:600;font-size:16px;color:var(--green)}
-.jf-mockup .h-row a{font-size:12px;font-weight:600;color:var(--gold-deep)}
-.jf-mockup .prod{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:9px;box-shadow:var(--shadow)}
-.jf-mockup .prod .ph{height:78px;border-radius:9px;margin-bottom:8px}
-.jf-mockup .prod .nm{font-size:12px;font-weight:600;line-height:1.25;color:var(--ink)}
-.jf-mockup .prod .pr{font-size:13px;font-weight:700;color:var(--green);margin-top:4px}
-.jf-mockup .grid2{display:grid;grid-template-columns:1fr 1fr;gap:11px}
-.jf-mockup .line{display:flex;gap:11px;align-items:center;background:var(--surface);border:1px solid var(--line);
-    border-radius:13px;padding:10px;margin-bottom:9px}
-.jf-mockup .line .th{width:50px;height:50px;border-radius:9px;flex:none}
-.jf-mockup .line .info{flex:1;min-width:0}
-.jf-mockup .line .info .t{font-size:13px;font-weight:600;color:var(--ink);line-height:1.2}
-.jf-mockup .line .info .s{font-size:11px;color:var(--ink-mute);margin-top:2px}
-.jf-mockup .line .pr{font-size:13px;font-weight:700;color:var(--green)}
-.jf-mockup .qty{display:flex;align-items:center;gap:9px;background:var(--surface-2);border-radius:9px;padding:3px}
-.jf-mockup .qty span{font-size:13px;font-weight:700;min-width:14px;text-align:center}
-.jf-mockup .qty b{width:20px;height:20px;border-radius:6px;background:var(--surface);display:grid;place-items:center;
-    font-size:14px;color:var(--green);border:1px solid var(--line)}
-.jf-mockup .panel{background:var(--surface);border:1px solid var(--line);border-radius:15px;padding:14px;box-shadow:var(--shadow)}
-.jf-mockup .row-kv{display:flex;justify-content:space-between;font-size:13px;padding:6px 0;color:var(--ink-soft)}
-.jf-mockup .row-kv b{color:var(--ink);font-weight:600}
-.jf-mockup .row-kv.total{border-top:1px dashed var(--line-strong);margin-top:6px;padding-top:11px;font-size:15px}
-.jf-mockup .row-kv.total b{color:var(--green);font-weight:700}
-.jf-mockup .docked{flex:none;padding:12px 16px 14px;background:linear-gradient(transparent,var(--cream) 22%);border-top:1px solid var(--line)}
-.jf-mockup .mode{display:flex;gap:13px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);
-    border-radius:16px;padding:14px;margin-bottom:12px;box-shadow:var(--shadow)}
-.jf-mockup .mode .mi{width:46px;height:46px;border-radius:13px;flex:none;display:grid;place-items:center;color:#fff}
-.jf-mockup .mode h4{font-family:'Fraunces',serif;font-size:16px;font-weight:600;color:var(--green);margin-bottom:3px;
-    display:flex;align-items:center;gap:7px}
-.jf-mockup .mode p{font-size:11.5px;color:var(--ink-mute);line-height:1.45}
-.jf-mockup .mode.featured{border-color:var(--gold);background:linear-gradient(180deg,rgba(197,158,75,.08),var(--surface))}
-.jf-mockup .sel{display:flex;gap:11px;align-items:center;background:var(--surface);border:1px solid var(--line);
-    border-radius:13px;padding:9px;margin-bottom:9px}
-.jf-mockup .sel.on{border-color:var(--green);box-shadow:0 0 0 1px var(--green)}
-.jf-mockup .sel .th{width:52px;height:52px;border-radius:9px;flex:none}
-.jf-mockup .sel .info{flex:1}
-.jf-mockup .sel .info .t{font-size:13px;font-weight:600;color:var(--ink)}
-.jf-mockup .sel .info .s{font-size:11px;color:var(--ink-mute);margin-top:2px}
-.jf-mockup .check{width:23px;height:23px;border-radius:50%;border:2px solid var(--line-strong);flex:none;display:grid;place-items:center}
-.jf-mockup .check.on{background:var(--green);border-color:var(--green)}
-.jf-mockup .gap{background:rgba(197,158,75,.10);border:1px solid rgba(197,158,75,.4);border-radius:14px;padding:13px;margin-bottom:13px}
-.jf-mockup .gap .gh{display:flex;align-items:center;gap:8px;font-size:12.5px;font-weight:700;color:var(--gold-deep);margin-bottom:9px}
-.jf-mockup .gap .gi{display:flex;align-items:center;justify-content:space-between;font-size:12px;padding:6px 0;border-top:1px solid rgba(197,158,75,.25)}
-.jf-mockup .gap .gi:first-of-type{border-top:none}
-.jf-mockup .gap .gi .nm{color:var(--ink);font-weight:600}
-.jf-mockup .gap .gi .miss{color:var(--gold-deep);font-weight:600;display:flex;align-items:center;gap:5px}
-.jf-mockup .gap .gi .ok{color:var(--green-mid);font-weight:600}
-.jf-mockup .addmini{font-size:10px;font-weight:700;color:#fff;background:var(--gold-deep);border-radius:7px;padding:4px 8px}
-.jf-mockup .seg{display:flex;background:var(--surface-2);border-radius:11px;padding:3px;gap:3px}
-.jf-mockup .seg button{flex:1;border:none;background:transparent;padding:9px;border-radius:8px;font-family:inherit;
-    font-weight:700;font-size:12.5px;color:var(--ink-mute);cursor:default}
-.jf-mockup .seg button.on{background:var(--surface);color:var(--green);box-shadow:var(--shadow)}
-.jf-mockup .field{background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:11px 13px;margin-bottom:10px}
-.jf-mockup .field .fl{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-mute);font-weight:700}
-.jf-mockup .field .fv{font-size:13.5px;font-weight:500;color:var(--ink);margin-top:3px}
-.jf-mockup .confirm-hero{text-align:center;padding:30px 0 16px}
-.jf-mockup .seal{width:78px;height:78px;border-radius:50%;background:var(--green);display:grid;place-items:center;margin:0 auto 16px;
-    box-shadow:0 12px 30px rgba(42,71,60,.35)}
-.jf-mockup .confirm-hero h3{font-family:'Fraunces',serif;font-weight:600;font-size:23px;color:var(--green)}
-.jf-mockup .confirm-hero p{font-size:12.5px;color:var(--ink-mute);margin-top:6px;padding:0 18px}
-.jf-mockup .track{position:relative;padding-left:8px;margin:6px 0 4px}
-.jf-mockup .tstep{display:flex;gap:13px;position:relative;padding-bottom:18px}
-.jf-mockup .tstep:last-child{padding-bottom:0}
-.jf-mockup .tstep .dotcol{display:flex;flex-direction:column;align-items:center;flex:none}
-.jf-mockup .tstep .dot{width:18px;height:18px;border-radius:50%;background:var(--surface);border:2px solid var(--line-strong);
-    display:grid;place-items:center;z-index:2}
-.jf-mockup .tstep .ln{flex:1;width:2px;background:var(--line-strong);margin:2px 0 -2px}
-.jf-mockup .tstep:last-child .ln{display:none}
-.jf-mockup .tstep.done .dot{background:var(--green);border-color:var(--green)}
-.jf-mockup .tstep.done .ln{background:var(--green)}
-.jf-mockup .tstep.now .dot{background:var(--gold);border-color:var(--gold);box-shadow:0 0 0 5px rgba(197,158,75,.25)}
-.jf-mockup .tstep .tx .t{font-size:13px;font-weight:600;color:var(--ink)}
-.jf-mockup .tstep .tx .s{font-size:11px;color:var(--ink-mute);margin-top:1px}
-.jf-mockup .tstep.future .tx .t{color:var(--ink-mute)}
-.jf-mockup .onb{flex:1;display:flex;flex-direction:column;background:
-      radial-gradient(120% 70% at 50% -10%, rgba(61,103,87,.30), transparent 60%),
-      linear-gradient(180deg,var(--green) 0%,#1f362d 100%);
-    color:#fff;padding:0}
-.jf-mockup .onb .top{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:30px 26px}
-.jf-mockup .onb .mark{width:66px;height:66px;border-radius:20px;background:var(--gold);display:grid;place-items:center;
-    margin-bottom:22px;box-shadow:0 14px 34px rgba(0,0,0,.3)}
-.jf-mockup .onb h2{font-family:'Fraunces',serif;font-weight:600;font-size:27px;line-height:1.1;letter-spacing:-.01em}
-.jf-mockup .onb p{font-size:13px;color:rgba(255,255,255,.78);margin-top:12px;max-width:30ch}
-.jf-mockup .onb .dots{display:flex;gap:6px;margin-top:24px}
-.jf-mockup .onb .dots i{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.3)}
-.jf-mockup .onb .dots i.on{width:18px;border-radius:3px;background:var(--gold)}
-.jf-mockup .onb .bottom{padding:18px 22px 26px;display:flex;flex-direction:column;gap:10px}
-.jf-mockup .onb .terms{text-align:center;font-size:10px;color:rgba(255,255,255,.5);margin-top:4px}
-.jf-mockup .recipe-hero{height:158px;margin:-4px -16px 14px;position:relative}
-.jf-mockup .recipe-hero .lbl{left:16px;right:16px;bottom:13px;font-size:21px}
-.jf-mockup .recipe-hero .floatback{position:absolute;top:12px;left:14px;z-index:5;width:32px;height:32px;border-radius:50%;
-    background:rgba(255,253,247,.9);display:grid;place-items:center;color:var(--green)}
-.jf-mockup .culture{background:rgba(61,103,87,.08);border:1px solid var(--line);border-radius:13px;padding:12px;margin-bottom:14px}
-.jf-mockup .culture .ch{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--green-mid);
-    display:flex;align-items:center;gap:6px;margin-bottom:6px}
-.jf-mockup .culture p{font-size:12px;color:var(--ink-soft);line-height:1.5}
-.jf-mockup .ing-li{display:flex;align-items:center;justify-content:space-between;font-size:12.5px;padding:8px 0;border-bottom:1px solid var(--line)}
-.jf-mockup .ing-li:last-child{border-bottom:none}
-.jf-mockup .ing-li .nm{color:var(--ink);font-weight:500}
-.jf-mockup .ing-li .am{color:var(--ink-mute);font-size:11px}
-.jf-mockup .hero-card{position:relative;border-radius:18px;overflow:hidden;padding:18px;margin-bottom:18px;
-    background:linear-gradient(135deg,var(--green) 0%,var(--green-mid) 70%,var(--gold-deep) 150%);color:#fff;box-shadow:var(--shadow)}
-.jf-mockup .hero-card::after{content:"";position:absolute;inset:0;background:radial-gradient(160px 120px at 88% 10%,rgba(197,158,75,.45),transparent 65%)}
-.jf-mockup .hero-card .tag{position:relative;z-index:1;background:rgba(255,253,247,.92);color:var(--green-mid)}
-.jf-mockup .hero-card h3{position:relative;z-index:1;font-family:'Fraunces',serif;font-weight:600;font-size:19px;line-height:1.15;margin:9px 0 5px;max-width:18ch}
-.jf-mockup .hero-card p{position:relative;z-index:1;font-size:11.5px;color:rgba(255,255,255,.82);max-width:26ch}
-.jf-mockup .hero-card .cta{position:relative;z-index:1;display:inline-flex;align-items:center;gap:6px;margin-top:13px;
-    background:var(--gold);color:var(--ink);font-weight:700;font-size:12.5px;padding:9px 14px;border-radius:11px}
-.jf-mockup .board-foot{margin-top:64px;padding-top:26px;border-top:1px solid var(--line);
-    display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:12.5px;color:var(--ink-mute)}
-@media (max-width:680px){
-  .jf-mockup .wrap{padding:0 18px}
-  .jf-mockup .phones{justify-content:center}
-}
-@media (prefers-reduced-motion:reduce){
-  .jf-mockup, .jf-mockup *{transition:none!important}
-}
-
-/* ---- integration overrides (band chrome + isolation from portfolio CSS) ---- */
-.jf-mockup{padding:44px 0 12px;margin:14px 0 8px;border-radius:28px;overflow:hidden;position:relative}
-.jf-mockup .board-head{padding:6px 0 32px}
-.jf-mockup a{color:inherit;text-decoration:none}
-.jf-mockup img{max-width:none}
-
-  </style>
+  <link rel="stylesheet" href="../css/jamaicanfood.css" />
+  
 </head>
+
 <body>
 
   <!-- ─── NAV ─── -->
@@ -459,20 +223,18 @@
     </div>
   </div>
 
+<!-- Beginnning of Mock Ups -->
+
   <!-- ─── SCREENS BAND ─── -->
   <div class="case-body case-body--mockup">
-
-    <!-- ─── HIGH-FIDELITY MOCKUP ─── -->
-    <div class="jf-mockup">
-
-<div class="wrap">
+  <div class="jf-mockup">
+  <div class="wrap">
 
   <!-- ════════ HEADER ════════ -->
   <header class="board-head">
-    <!-- <p class="kick">High-fidelity mockup</p> -->
     <h1>The eleven screens, end to end</h1>
-    <!-- <p>Eleven screens across five journey stages, anchored by a recipe-to-cart box builder.</p> -->
-
+    <p>Eleven screens across five journey stages, anchored by a recipe-to-cart box builder.</p>
+  
     <div class="swatches">
       <span class="sw"><i style="background:#2a473c"></i>#2a473c Green</span>
       <span class="sw"><i style="background:#3d6757"></i>#3d6757 Mid green</span>
