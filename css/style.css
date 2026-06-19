@@ -161,16 +161,39 @@ svg {
 /* ─── Navigation ─── */
 .nav {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: var(--nav-h);
-  background: rgba(250, 250, 250, 0.85);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid transparent;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 1100px;
+  background: #ffffff26;
+  backdrop-filter: blur(35px);
+  padding: 15px 30px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 30px #00000044;
+  animation: anime 0.6s ease forwards;
   z-index: 100;
-  transition: border-color 0.3s;
+
+  /* right: 0; */
+  /* height: var(--nav-h); */
+  /* background: rgba(250, 250, 250, 0.85); */
+  /* backdrop-filter: blur(12px); */
+  /* -webkit-backdrop-filter: blur(12px); */
+  /* border-bottom: 1px solid transparent; */
+  /* transition: border-color 0.3s; */
+}
+@keyframes anime {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -40px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
 }
 .nav.scrolled {
   border-bottom-color: var(--border);
