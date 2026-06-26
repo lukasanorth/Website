@@ -714,6 +714,13 @@ svg {
   flex-wrap: wrap;
   gap: 6px;
 }
+.project-card__logo {
+  max-width: 70%;
+  max-height: 56px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
 
 /* ─── Timeline ─── */
 .timeline {
